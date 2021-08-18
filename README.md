@@ -37,6 +37,9 @@ EOF
 >`systemctl daemon-reload`
 
 >`systemctl restart docker`
+
 >`swapoff -a`
+
 >`systemctl start kubelet` 
+
 
