@@ -9,10 +9,12 @@
 * Error Solve In follow Step By Step command:
  
  ``kubeadm reset -f``
- ``iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X``
- ``cat > /etc/docker/daemon.json <<EOF``
  
- ``{
+ >``iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X``
+ 
+ >``cat > /etc/docker/daemon.json <<EOF``
+ 
+ >``{
   "exec-opts": ["native.cgroupdriver=systemd"],
   "log-driver": "json-file",
   "log-opts": {
