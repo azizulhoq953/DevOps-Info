@@ -31,10 +31,11 @@
   
  }
 EOF 
+```
  
 
-  >systemctl daemon-reload
+>systemctl daemon-reload
 
-  >systemctl restart docker
+>systemctl restart docker
 
 
