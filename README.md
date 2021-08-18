@@ -15,7 +15,8 @@
  >``cat > /etc/docker/daemon.json <<EOF``
  
  * Select all Command:
-``` {
+``` 
+	{
  
   "exec-opts": ["native.cgroupdriver=systemd"],
   
@@ -30,10 +31,10 @@
   "storage-driver": "overlay2"
   
  }
-EOF
+EOF ```
 
-  systemctl daemon-reload
+  `systemctl daemon-reload`
 
-  systemctl restart docker```
+  `systemctl restart docker`
 
 
