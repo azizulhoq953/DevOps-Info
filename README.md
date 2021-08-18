@@ -16,8 +16,7 @@
  
  * Select all Command:
 ``` 
-	{
- 
+{
   "exec-opts": ["native.cgroupdriver=systemd"],
   
   "log-driver": "json-file",
@@ -33,8 +32,8 @@
  }
 EOF ```
 
-  `systemctl daemon-reload`
+  ``systemctl daemon-reload``
 
-  `systemctl restart docker`
+  ``systemctl restart docker``
 
 
