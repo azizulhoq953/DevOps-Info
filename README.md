@@ -5,4 +5,5 @@
 > cluster To see the stack trace of this error execute with --v=5 or higher.
 
 * Error Solve In follow Step By Step command:
- `kubeadm reset -f`
+ 
+ ``kubeadm reset -f``
