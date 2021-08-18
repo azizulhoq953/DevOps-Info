@@ -14,7 +14,7 @@
  
  >``cat > /etc/docker/daemon.json <<EOF``
  
- *Select all Command:
+ * Select all Command:
  `{`
  
   `"exec-opts": ["native.cgroupdriver=systemd"],`
