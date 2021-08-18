@@ -1,6 +1,8 @@
 # DevOps-Error solving
 * Kubernetes master Node problem errors solution:
 
+*Kubernetes Error Master Node in Ubuntu Server Version Vm*
+
 > error execution phase wait-control-plane: couldn't initialize a Kubernetes 
 > cluster To see the stack trace of this error execute with --v=5 or higher.
 
