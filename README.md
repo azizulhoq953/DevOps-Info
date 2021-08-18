@@ -30,7 +30,9 @@
   "storage-driver": "overlay2"
   
  }
-EOF ```
+EOF 
+ 
+ * daemon-reload
 
   ``systemctl daemon-reload``
 
