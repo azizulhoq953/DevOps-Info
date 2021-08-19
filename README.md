@@ -67,11 +67,12 @@ EOF
 >the connection to the server localhost:8080 was refused - did you specify the right host or port?
 
 * Solving command
-``
+
+```
 mkdir -p $HOME/.kube
 
 cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 
 chown $(id -u):$(id -g) $HOME/.kube/config
-``
+```
 
