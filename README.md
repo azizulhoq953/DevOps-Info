@@ -48,5 +48,5 @@ EOF
 ### Master Node And Worker Node Tcp Errors Solving ###
 
 
-_Unable to connect to the server: dial tcp 192.168.0.101:6443: connect: no route to host_
+>Unable to connect to the server: dial tcp 192.168.0.101:6443: connect: no route to host
 
