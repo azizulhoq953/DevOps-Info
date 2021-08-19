@@ -50,3 +50,13 @@ EOF
 
 >Unable to connect to the server: dial tcp 192.168.0.101:6443: connect: no route to host
 
+*Solving Errors follow Command:
+
+`sudo -i`
+
+`swapoff -a`
+
+`exit`
+
+`strace -eopenat kubectl version`
+
