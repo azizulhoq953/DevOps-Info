@@ -40,6 +40,13 @@ EOF
 
 >`swapoff -a`
 
->`systemctl start kubelet` 
+>`systemctl start kubelet`
 
-## worker Node Errors problem solving Same procedure follow the Master Node ## 
+
+## worker Node Errors problem solving Same procedure follow the Master Node ##
+
+### Master Node And Worker Node Tcp Errors Solving ###
+
+
+***Unable to connect to the server: dial tcp 192.168.0.101:6443: connect: no route to host***
+
