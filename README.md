@@ -50,7 +50,7 @@ EOF
 
 >Unable to connect to the server: dial tcp 192.168.0.101:6443: connect: no route to host
 
-*Solving Errors follow Command:
+* Solving Errors follow Command:
 
 `sudo -i`
 
@@ -59,4 +59,11 @@ EOF
 `exit`
 
 `strace -eopenat kubectl version`
+
+`kubectl get pods`
+
+* Errors
+
+>the connection to the server localhost:8080 was refused - did you specify the right host or port?<
+
 
