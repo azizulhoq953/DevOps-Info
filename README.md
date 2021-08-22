@@ -76,4 +76,5 @@ sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
 sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
+[ubuntu server iso file setup in Vm link](https://hibbard.eu/install-ubuntu-virtual-box/)
 
