@@ -78,3 +78,5 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 [ubuntu server iso file setup in Vm link](https://hibbard.eu/install-ubuntu-virtual-box/)
 
+[Kubernetes deploy information link](https://blog.radwell.codes/2021/05/provisioning-single-node-kubernetes-cluster-using-kubeadm-on-ubuntu-20-04/)
+
