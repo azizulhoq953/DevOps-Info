@@ -8,7 +8,7 @@
 
 * Error Solve In follow Step By Step command:
  
- ``kubeadm reset -f``
+  ``kubeadm reset -f``
  
  >``iptables -F && iptables -t nat -F && iptables -t mangle -F && iptables -X``
  
