@@ -1,4 +1,33 @@
-# DevOps-Error solving
+# Maven 
+
+* -- JDK & Maven Installation --
+
+ ``sudo apt-get update -y``
+  ``sudo apt install openjdk-11-jre -y``
+    ``sudo apt-get install maven -y``
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Master_academy 
+## DevOps-Error solving
 * Kubernetes master Node problem errors solution:
 
 *Kubernetes Error Master Node in Ubuntu Server Version Vm*
