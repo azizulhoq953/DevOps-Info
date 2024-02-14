@@ -10,6 +10,35 @@
 ` java -version `
 ` mvn -version `
 
+*Build Project:
+### first of clone repository and go inside the project
+
+* command validate project ignored the all warning
+
+` mvn validate ` 
+
+* check syntax base error and All Dependency Download
+` mvn compile `
+
+* go inside target folder for output 3 folder (classes, generated-sources, maven-status) cd ..
+* next command Test inside project folder
+` mvn test `
+
+` mvn package `
+
+8 go target foldar check .jar file and back project folder
+
+` mvn install `
+
+* clean package
+
+` mvn clean package `
+
+* java base project temporary execute jar file for default port:8080
+
+` java -jar target/spring-boot-web.jar `
+ 
+
 
 
 
