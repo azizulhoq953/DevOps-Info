@@ -46,7 +46,7 @@
 ### * 02. Download Nexus:
 * Visit the Sonatype website and go to the Nexus download page: https://www.sonatype.com/nexus/repository-oss-download
 
-### * Alternatively, you can use the following command in the terminal to download Nexus:
+ * ###  Alternatively, you can use the following command in the terminal to download Nexus:
 
  `` wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz ``
 
