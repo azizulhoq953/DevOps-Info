@@ -6,6 +6,9 @@
   ``sudo apt install openjdk-11-jre -y``
     ``sudo apt-get install maven -y``
 
+* version check 
+` java -version `
+` mvn -version `
 
 
 
