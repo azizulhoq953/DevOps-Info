@@ -10,7 +10,7 @@
 ` java -version `
 ` mvn -version `
 
-*Build Project:
+* Build Project:
 ### first of clone repository and go inside the project
 
 * command validate project ignored the all warning
@@ -38,19 +38,36 @@
 
 ` java -jar target/spring-boot-web.jar `
  
+# To install Nexus on Linux, follow these steps:
 
+* 01. Prerequisites:
+* Ensure that Java Development Kit (JDK) is installed on your Linux system. Nexus requires Java to run. You can check if Java is installed by running the command ``java -version `` in the terminal. If Java is not installed, you can install it using the package manager of your Linux distribution.
 
+### * 02. Download Nexus:
+* Visit the Sonatype website and go to the Nexus download page: https://www.sonatype.com/nexus/repository-oss-download
 
+### * Alternatively, you can use the following command in the terminal to download Nexus:
 
+ `` wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz ``
 
+ ### * 03. Extract Nexus:
+ `` tar -xf latest-unix.tar.gz ``
 
+### * 04. Configure Nexus:
 
+* Open the extracted Nexus directory.
+* In the bin folder, you will find a script called nexus (or nexus.exe for Windows). This is the Nexus startup script.
 
+`` chmod +x nexus ``
 
+### * 05. Start Nexus:
 
+`` ./nexus start ``
 
+### * 06. Access Nexus Web UI:
+* Open a web browser and navigate to http://localhost:8081. This is the default URL for accessing Nexus.
 
-
+# Install Nexus using Docker
 
 
 
